@@ -1,4 +1,5 @@
-a{color: rgb(223, 213, 85);}
+a{color: rgb(223, 213, 85);
+text-decoration: none;}
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background: #16161a;
@@ -20,9 +21,10 @@ body{
 }
 .img_firma{display: inline-block;
     padding: 40px;
+    padding-bottom: 50px;
 }
 .navegador{
-    width: 100%;
+    width: 1140px;
     margin: auto;
     padding: 30px;
     list-style: none;
@@ -37,7 +39,7 @@ body{
     color: rgb(255, 255, 255);
 }
 .navegador li a{margin: auto;
-    width: 1140px;
+    width: 100%;
     padding: 30px;
     color: rgb(255, 255, 255);
 }
@@ -48,7 +50,7 @@ body{
 .contenedor{
     width: 1140px;
     margin:auto;
-    padding: 50px 100px;
+    padding: 50px, 100px;
     background: #16161a;
     color: #fffffe;
     font-size: small;
@@ -88,26 +90,22 @@ body{
 .programas_02{display: inline-block;
     margin: 20px;
 }
-.contenedor_03{width: 100%;
+.footer{width: 1180px;
     margin: auto;
-    padding-right: 25px;
-    padding-left: 25px;
-    background: #2cb67d;
-}
-.footer{width: 100%;
     color: #000000;
-    padding-left: 50px;
-    display: inline-block;
     background-color: #2cb67d;
+    padding-top: 1px;
+    height: 170px;
 }
 .redesimagenes{display: block;
     padding-left: 38%;
+}
+#redes{text-align: center;
 }
 .redes{
     list-style: none;
 }
 .redes li{display: inline-block;
-    margin: 1140;
 }
 .redes li a{margin: auto;
     width: 1140px;
@@ -115,21 +113,15 @@ body{
 .redes li a :hover{
     scale: 115%;
 }
-#copyright{
+#copyright{text-align: center;
     color: #000000;
-}
-.rotulo{margin:auto;
-    background: #2cb67d;
-    font-size: smaller;
-    color: #fffffe;
 }
 .mis_trabajos{color: #fffffe;
     font-weight: bold;
     font-size: 60px;
-    padding-left: 90px;
-    padding-right: 90px;
+    padding-left: 360px;
 }
-.trabajos01{width: 100%;
+.trabajos01{width: 1140px;
     margin: auto;
     padding: 30px 20px;
     color: #fffffe;
