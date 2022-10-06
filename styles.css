@@ -11,19 +11,21 @@ body{
     font-size: xx-large;
     color: #fffffe;
     padding-left: 20%;
-
 }
 #hola{
     font-size: 100px;
 }
 .bienvenida_p{display: inline-block;
 }
-#quetul{width: 500px;
-
+#quetul{width: 400px;
 }
-.img_firma{display: inline-block;
-    padding: 40px;
-    padding-bottom: 50px;
+.contenedor-inicio{
+    display: inline-block;
+    width: 1140px;
+    margin:auto;
+    background: #16161a;
+    color: #fffffe;
+    font-size: small;
 }
 .navegador{
     width: 1140px;
@@ -66,13 +68,14 @@ body{
     display: inline-block;
     width: 500px;
     padding: 50px;
+    padding-top: 1px;
     padding-left: 5px;
     font-size: large;
 }
 .imagen_yo{
     display: inline-block;
     padding: 20px;
-    border-radius: 50%;
+    border-radius: 50%;  
 }
 .contenedor_02{width: 1140px;
     margin:auto;
@@ -104,6 +107,8 @@ body{
 }
 .redesimagenes{display: block;
     padding-left: 38%;
+}
+.redesimagenes :hover{scale: 115%; 
 }
 #redes{text-align: center;
 }
