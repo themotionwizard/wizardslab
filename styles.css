@@ -27,8 +27,11 @@ body{
     color: #fffffe;
     font-size: small;
 }
+.firmaTMW{padding-left: 6%;
+
+}
 .navegador{
-    width: 1140px;
+    width: 100%;
     margin: auto;
     padding: 30px;
     list-style: none;
@@ -77,12 +80,19 @@ body{
     padding: 20px;
     border-radius: 50%;  
 }
+#info{
+    text-align: center;
+}
 .contenedor_02{width: 1140px;
     margin:auto;
-    padding: 50px 20px;
-    background: #72757e;
+    padding: 5px 20px;
+    background: #f25f4c;
     color: #fffffe;
     font-size: large;
+}
+.titulo-contenedor-2{
+    text-align: center;
+    height: 35px;
 }
 .info{font-size: 55px;
 }
